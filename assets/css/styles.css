@@ -1,0 +1,178 @@
+html, body{
+
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+
+}
+#mainScreen{
+	background-image:url('../images/mine.jpg');
+	background-repeat:repeat;
+	width:100%;
+	max-height:700px;
+	height:100%;
+   
+	margin:0px;
+	padding:0px;
+	-webkit-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+	-moz-box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+	box-shadow: inset 0px 0px 60px 17px rgba(21,86,87,1);
+
+}
+#contentBorder{
+	background:black;
+	width:70%;
+	height:100%;
+	margin:0 auto 0 auto;
+}
+#content{
+	height:511px;
+	width:780px;
+	background-color: white;
+	margin: 0 auto 0 auto;
+	position:relative;
+	
+}
+header{
+	width:100%;
+	height:75px;
+	background-color:orange;
+	color:white;
+}
+h1{
+	font-weight: bold;
+	font-family: Arial;
+	font-size:26pt;
+	margin:auto;
+	text-align:center;
+	line-height: 75px;
+}
+.descriptorBox{
+	width:300px;
+	height:410px;
+    background-color:silver;
+	float:left;
+	margin-top:40px;
+	border-radius:10px 0px 0px 10px;
+	
+
+}
+.descriptorContent{
+	width:90%;
+	height:85%;
+	background:white;
+	margin:0 auto 0 auto;
+	border-radius:10px;
+
+}
+.descriptorText{
+	color:black;
+	width:90%;
+	margin:0 auto 0 auto;
+	padding-top:10px;
+	font-family:arial;
+
+
+}
+h2{
+	font-weight: bold;
+	font-family: Arial;
+	font-size:14pt;
+	margin:auto;
+	text-align:center;
+	color:white;
+	padding-top:20px;
+	
+}
+.rightSide{
+	float:left;
+	margin-top:40px;
+	
+}
+.endGameBox{
+	width:470px;
+	height:100px;
+	background-color:yellow;
+	border-radius:0px 10px 0px 0px;
+}
+.endGameContent{
+	width:90%;
+	height:70%;
+	background-color:white;
+	border-radius:10px;
+	margin:0 auto 0 auto;
+	position: relative;
+	top:10px;
+	text-align:center;
+}
+.endGameContent p{
+	font-family:arial;
+	font-size:15pt;
+	border-bottom:1px solid #33b3b4;
+}
+.recordHolder{
+	margin-left:125px;
+	margin-top:10px;
+
+}
+
+h4{
+	font-family:arial;
+	float:left;
+	font-size:15pt;
+	text-align:center;
+	padding-right: 20px;
+
+
+}
+
+.endGameBoxFix{
+	width:100%;
+	height:1px;
+	clear:both;
+}
+
+.goalBox{
+	width:470px;
+	height:100px;
+	background:#33b3b4;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 2px #692654;
+	font-family:arial;
+	font-size:14pt;
+}
+#randomNumber{
+	font-size:30pt;
+	padding-top:10px;
+}
+
+.scoreBox{
+	width:470px;
+	height:100px;
+	background:yellow;
+	border-radius: 0px 0px 10px 0px;
+	clear:both;
+	text-align: center;
+}
+
+.crystalManagement{
+	width:100px;
+	height:100px;
+	background:white;
+	border:5px solid black;
+	float:left;
+	margin-right:10px;
+}
+.crystalFix{
+	position:absolute;
+}
+
+h5{
+	font-family:arial;
+	font-size:30pt;
+	padding-top:10px;
+	color:white;
+}
+
